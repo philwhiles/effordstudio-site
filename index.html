@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Efford Studio Limited</title>
+  <meta name="description" content="Efford Studio Limited — independent apps for musicians and creatives." />
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    .wrap { max-width: 780px; margin: 0 auto; padding: 64px 20px; }
+    .card {
+      border: 1px solid rgba(127,127,127,.25);
+      border-radius: 16px;
+      padding: 28px;
+      background: rgba(127,127,127,.06);
+    }
+    h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: -0.02em; }
+    p { margin: 10px 0; }
+    .muted { opacity: .75; }
+    a.btn {
+      display:inline-block; margin-top: 14px;
+      padding: 10px 14px; border-radius: 10px;
+      border: 1px solid rgba(127,127,127,.35);
+      text-decoration:none;
+    }
+    a.btn:hover { background: rgba(127,127,127,.10); }
+    footer { margin-top: 18px; font-size: 13px; opacity: .7; }
+  </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Efford Studio Limited</h1>
+      <p class="muted">We are an independent applications development company catering for musicians and creatives, based in the South West of England.</p>
+      <p>Check out our products:</p>
+
+      <p>
+        <a class="btn" href="https://www.frettly.app" rel="noopener">
+          <img src="images/frettly-icon.png" alt="Frettly icon" class="btn-icon">
+          <span>Frettly for macOS</span>
+        </a>
+      </p>
+
+          <p>
+            Contact Efford Studio here:
+          </p>
+          <p>
+            <span class="email">contact@effordstudio.com</span>
+          </p>
+      <footer>
+        &copy; <span id="y"></span> Efford Studio Limited
+      </footer>
+    </div>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
