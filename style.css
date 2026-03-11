@@ -182,10 +182,10 @@ p {
   margin-bottom: 0.35rem;
 }
 footer {
-  margin-top: 2rem;
-  font-size: 0.75rem;
-  color: #4b5563;
-  text-align: center;
+  margin-top: 22px;
+  font-size: 12px;
+  line-height: 1.45;
+  opacity: .62;
 }
 a.inline {
   color: #93c5fd;

@@ -19,15 +19,24 @@
     p { margin: 10px 0; }
     .muted { opacity: .75; }
     a.btn {
-      display:inline-block; margin-top: 14px;
-      padding: 10px 14px; border-radius: 10px;
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      margin-top: 14px;
+      padding: 10px 14px;
+      border-radius: 10px;
       border: 1px solid rgba(127,127,127,.35);
       text-decoration:none;
     }
     a.btn:hover { background: rgba(127,127,127,.10); }
-    footer { margin-top: 18px; font-size: 13px; opacity: .7; }
+    footer {
+      margin-top: 22px;
+      font-size: 12px;
+      line-height: 1.45;
+      opacity: .62;
+    }
   </style>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="wrap">
@@ -43,14 +52,13 @@
         </a>
       </p>
 
-          <p>
-            Contact Efford Studio here:
-          </p>
-          <p>
-            <span class="email">contact@effordstudio.com</span>
-          </p>
+      <p>Contact Efford Studio here:</p>
+      <p><span class="email">contact@effordstudio.com</span></p>
+
       <footer>
-        &copy; <span id="y"></span> Efford Studio Limited
+        &copy; <span id="y"></span> Efford Studio Limited<br>
+        Registered in England and Wales • Company number 17037547<br>
+        Registered office: West Efford Cottage, Efford, Shobrooke, Crediton, Devon, EX17 1BN
       </footer>
     </div>
   </div>
